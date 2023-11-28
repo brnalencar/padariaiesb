@@ -1,0 +1,22 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Padaria</title>
+</head>
+<body>
+    <h1>Padaria</h1>
+    <h2>Fazer pedido</h2>
+    <form action="/pedido/" method="post">
+        <div class="form-group">
+            <label for="nome-produto">Nome do produto</label>
+            <input type="text" class="form-control" id="nome-produto" name="nome_produto" required>
+        </div>
+        <div class="form-group">
+            <label for="quantidade">Quantidade</label>
+            <input type="number" class="form-control" id="quantidade" name="quantidade" required>
+        </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</body>
+</html>
